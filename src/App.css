@@ -1,0 +1,31 @@
+:root {
+  --color-neutral-0: #FFFFFF;
+  --color-neutral-1: #FAFAFA;
+  --color-neutral-2: #F6F7F7;
+  --color-neutral-3: #EEEEEE;
+  --color-neutral-4: #DFE1E6;
+  --color-neutral-5: #C6C9CF;
+  --color-neutral-6: #A9AEB7;
+  --color-neutral-7: #6E7178;
+  --color-neutral-8: #3F4145;
+  --color-neutral-9: #1C1E24;
+
+  --color-primary-1: #F6F4F7;
+  --color-primary-2: #EDEAF0;
+  --color-primary-3: #DBD4E2;
+  --color-primary-4: #C9BFD3;
+  --color-primary-5: #4B286D;
+
+  --color-secondary-1: #F7F8FE;
+  --color-secondary-2: #EFF1FE;
+  --color-secondary-3: #E0E4FC;
+  --color-secondary-4: #D0D6FB;
+  --color-secondary-5: #6277F0;
+
+  --color-blue: #1970E6;
+  --color-red: #D83E31;
+  --color-yellow: #F7AE3B;
+  --color-green: #28B058;
+
+  --font-family-helvetica-neue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
