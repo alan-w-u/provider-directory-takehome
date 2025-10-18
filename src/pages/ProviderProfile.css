@@ -1,0 +1,119 @@
+.provider-profile {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 238px;
+  background: var(--color-neutral-2);
+  font-family: var(--font-family-helvetica-neue);
+
+  .breadcrumb {
+    margin: 24px 0;
+    color: var(--color-neutral-7);
+
+    img {
+      width: 8px;
+      height: 8px;
+      margin: 3px;
+    }
+
+    b {
+      font-weight: normal;
+      color: var(--color-neutral-9);
+    }
+  }
+
+  .profile {
+    display: flex;
+    gap: 20px;
+
+    img {
+      width: 289px;
+      height: 289px;
+    }
+
+    .info {
+      height: fit-content;
+      background: var(--color-neutral-0);
+
+      .about {
+        padding: 24px 32px;
+        box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.05);
+
+        h1 {
+          margin: 0;
+          font-size: 18px;
+        }
+
+        h2 {
+          font-size: 14px;
+          font-weight: 500;
+          color: var(--color-neutral-7);
+        }
+
+        p {
+          font-size: 14px;
+          color: var(--color-neutral-7);
+        }
+
+        .read-less {
+          font-size: 14.8px;
+          font-weight: 500;
+          color: var(--color-secondary-5);
+          cursor: pointer;
+
+          img {
+            width: 12px;
+            height: 12px;
+            margin-left: 3px;
+          }
+
+          .rotated {
+            transform: rotate(180deg);
+          }
+        }
+      }
+
+      .general {
+        padding: 24px 32px;
+
+        .fact {
+          display: flex;
+          gap: 16px;
+          margin-bottom: 16px;
+
+          .icon {
+            width: 32px;
+            height: 32px;
+            padding: 8px;
+            background: var(--color-neutral-1);
+          }
+
+          p {
+            margin: 0 0 6px;
+            font-size: 12px;
+            color: var(--color-neutral-7)
+          }
+
+          b {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--color-neutral-8);
+          }
+        }
+
+        .book-with-us {
+          width: 100%;
+          padding: 18px 32px;
+          background: var(--color-primary-5);
+          border: none;
+          border-radius: 200px;
+          font-family: var(--font-family-helvetica-neue);
+          font-size: 18px;
+          font-weight: 500;
+          color: var(--color-neutral-0);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

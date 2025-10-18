@@ -3,7 +3,8 @@ import { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Provider } from './types'
 import ProviderDirectory from './pages/ProviderDirectory'
-import { fetchProviders, fetchProvider } from './api'
+import ProviderProfile from './pages/ProviderProfile'
+import { fetchProviders } from './api'
 
 function App() {
   // Samples of API requests
@@ -23,6 +24,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<ProviderDirectory providers={providers} />} />
+          <Route path="/provider/:id" element={<ProviderProfile />} />
         </Routes>
       </BrowserRouter>
     </div>
